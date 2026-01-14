@@ -3,7 +3,9 @@ from datetime import datetime
 
 # JSON 地址
 JSON_URL = "http://141.164.53.195/live/korea-live.json"
-OUTPUT = "korea.m3u8"
+
+OUTPUT1 = "korea.m3u8"   # DIYP 影音 APP 格式
+OUTPUT2 = "korea2.m3u8"  # EXTINF 两行标准格式
 
 def run():
     try:
@@ -14,8 +16,12 @@ def run():
         print(f"{datetime.now()} 获取 JSON 失败: {e}")
         return
 
-    # DIYP 影音 APP 需要的标准 M3U 头
-    lines = ["#EXTM3U"]
+    # 文件1：DIYP 影音 APP 格式
+    lines1 = ["#EXTM3U"]
+
+    # 文件2：EXTINF 两行格式
+    lines2 = ["#EXTM3U"]
+
     count = 0
 
     for item in data:
@@ -34,16 +40,28 @@ def run():
                 break
 
         if not url:
-            continue  # 没有有效 m3u8 链接则跳过
+            continue
 
-        # DIYP 兼容格式（频道名,URL）
-        lines.append(f"{name},{url}")
+        # ---------- 文件1：DIYP 格式 ----------
+        # 频道名,URL
+        lines1.append(f"{name},{url}")
+
+        # ---------- 文件2：EXTINF 标准格式 ----------
+        lines2.append(f"#EXTINF:-1 ,{name}")
+        lines2.append(url)
+
         count += 1
 
     try:
-        with open(OUTPUT, "w", encoding="utf-8") as f:
-            f.write("\n".join(lines))
+        with open(OUTPUT1, "w", encoding="utf-8") as f1:
+            f1.write("\n".join(lines1))
+
+        with open(OUTPUT2, "w", encoding="utf-8") as f2:
+            f2.write("\n".join(lines2))
+
         print(f"{datetime.now()} 生成频道数量: {count}")
+        print(f"{datetime.now()} 已生成文件: {OUTPUT1}, {OUTPUT2}")
+
     except Exception as e:
         print(f"{datetime.now()} 写入文件失败: {e}")
 
