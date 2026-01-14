@@ -3,7 +3,7 @@ from datetime import datetime
 
 # JSON 地址
 JSON_URL = "http://141.164.53.195/live/korea-live.json"
-OUTPUT = "korea.m3u"
+OUTPUT = "korea.m3u8"
 
 def run():
     try:
