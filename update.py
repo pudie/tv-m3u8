@@ -1,17 +1,14 @@
 import requests
 from datetime import datetime
 
-# JSON 地址
 JSON_URL = "http://141.164.53.195/live/korea-live.json"
 OUTPUT = "korea.m3u8"
 
-# 请求头，避免部分源返回 403
 HEADERS = {
-    "User-Agent": "Mozilla/5.0",
+    "User-Agent": "Mozilla/5.0"
 }
 
 def is_valid_m3u8(url):
-    """判断 m3u8 URL 是否有效"""
     try:
         r = requests.head(
             url,
@@ -58,14 +55,15 @@ def run():
         if not valid_url:
             continue
 
-        # DIYP 影音 APP 兼容格式
         lines.append(f"{name},{valid_url}")
         count += 1
-
-        print(f"{datetime.now()} 有效频道: {name}")
 
     try:
         with open(OUTPUT, "w", encoding="utf-8") as f:
             f.write("\n".join(lines))
         print(f"{datetime.now()} 生成频道数量: {count}")
-    except
+    except Exception as e:
+        print(f"{datetime.now()} 写入文件失败: {e}")
+
+if __name__ == "__main__":
+    run()
