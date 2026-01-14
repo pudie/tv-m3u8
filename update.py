@@ -1,26 +1,9 @@
 import requests
 from datetime import datetime
 
+# JSON 地址
 JSON_URL = "http://141.164.53.195/live/korea-live.json"
 OUTPUT = "korea.m3u8"
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0"
-}
-
-def is_valid_m3u8(url):
-    try:
-        r = requests.head(
-            url,
-            headers=HEADERS,
-            timeout=10,
-            allow_redirects=True
-        )
-        if r.status_code in (401, 403, 404):
-            return False
-        return True
-    except Exception:
-        return False
 
 def run():
     try:
@@ -31,6 +14,7 @@ def run():
         print(f"{datetime.now()} 获取 JSON 失败: {e}")
         return
 
+    # DIYP 影音 APP 需要的标准 M3U 头
     lines = ["#EXTM3U"]
     count = 0
 
@@ -41,21 +25,19 @@ def run():
         if not name or not uris:
             continue
 
-        valid_url = ""
-
+        # 只接受以 .m3u8 结尾的 URL
+        url = ""
         for u in uris:
             u = u.strip()
-            if not u.lower().endswith(".m3u8"):
-                continue
-
-            if is_valid_m3u8(u):
-                valid_url = u
+            if u.lower().endswith(".m3u8"):
+                url = u
                 break
 
-        if not valid_url:
-            continue
+        if not url:
+            continue  # 没有有效 m3u8 链接则跳过
 
-        lines.append(f"{name},{valid_url}")
+        # DIYP 兼容格式（频道名,URL）
+        lines.append(f"{name},{url}")
         count += 1
 
     try:
