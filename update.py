@@ -25,11 +25,19 @@ def run():
         if not name or not uris:
             continue
 
-        url = uris[0].strip()
+        # 只接受以 .m3u8 结尾的 URL
+        url = ""
+        for u in uris:
+            u = u.strip()
+            if u.lower().endswith(".m3u8"):
+                url = u
+                break
 
-        # DIYP 兼容格式（无多余空格）
-        lines.append(f'{name},{url}')
+        if not url:
+            continue  # 没有有效 m3u8 链接则跳过
 
+        # DIYP 兼容格式（频道名,URL）
+        lines.append(f"{name},{url}")
         count += 1
 
     try:
