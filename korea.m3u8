@@ -141,6 +141,8 @@ https://srs.iyb983.cn/video/CYS/index.m3u8
 https://srs.iyb983.cn/video/ybtv1/index.m3u8
 #EXTINF:-1 tvg-name="YBTV-2 汉语综合频道",YBTV-2 汉语综合频道
 https://srs.iyb983.cn/video/ybtv2/index.m3u8
+#EXTINF:-1 tvg-name="아이돌아이 제8회 26/01/13",아이돌아이 제8회 26/01/13
+https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/아이돌아이_제8회 26_01_13.m3u8
 #EXTINF:-1 tvg-name="스프링 피버 제4회 26/01/13",스프링 피버 제4회 26/01/13
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/스프링 피버_제4회 26_01_13.m3u8
 #EXTINF:-1 tvg-name="마리와 별난 아빠들 제67회 26/01/13",마리와 별난 아빠들 제67회 26/01/13
@@ -149,8 +151,6 @@ https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/마리와 별난
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/첫 번째 남자_제22회 26_01_13.m3u8
 #EXTINF:-1 tvg-name="친밀한 리플리 제75회 26/01/13",친밀한 리플리 제75회 26/01/13
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/친밀한 리플리_제75회 26_01_13.m3u8
-#EXTINF:-1 tvg-name="아이돌아이 제7회 26/01/12",아이돌아이 제7회 26/01/12
-https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/아이돌아이_제7회 26_01_12.m3u8
 #EXTINF:-1 tvg-name="경도를 기다리며 최종회 26/01/11",경도를 기다리며 최종회 26/01/11
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/경도를 기다리며_최종회 26_01_11.m3u8
 #EXTINF:-1 tvg-name="화려한 날들 제46회 26/01/11",화려한 날들 제46회 26/01/11
@@ -241,6 +241,8 @@ https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/졸업_최종회
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/함부로 대해줘_최종회 24_07_02.m3u8
 #EXTINF:-1 tvg-name="백희가 돌아왔다 최종회 16/06/14",백희가 돌아왔다 최종회 16/06/14
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/백희가 돌아왔다_최종회 16_06_14.m3u8
+#EXTINF:-1 tvg-name="아이돌아이 제7회 26/01/12",아이돌아이 제7회 26/01/12
+https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/아이돌아이_제7회 26_01_12.m3u8
 #EXTINF:-1 tvg-name="스프링 피버 제3회 26/01/12",스프링 피버 제3회 26/01/12
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/스프링 피버_제3회 26_01_12.m3u8
 #EXTINF:-1 tvg-name="마리와 별난 아빠들 제66회 26/01/12",마리와 별난 아빠들 제66회 26/01/12
@@ -249,8 +251,6 @@ https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/마리와 별난
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/첫 번째 남자_제21회 26_01_12.m3u8
 #EXTINF:-1 tvg-name="친밀한 리플리 제74회 26/01/12",친밀한 리플리 제74회 26/01/12
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/친밀한 리플리_제74회 26_01_12.m3u8
-#EXTINF:-1 tvg-name="아이돌아이 제6회 26/01/06",아이돌아이 제6회 26/01/06
-https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/아이돌아이_제6회 26_01_06.m3u8
 #EXTINF:-1 tvg-name="경도를 기다리며 제11회 26/01/10",경도를 기다리며 제11회 26/01/10
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/경도를 기다리며_제11회 26_01_10.m3u8
 #EXTINF:-1 tvg-name="화려한 날들 제45회 26/01/10",화려한 날들 제45회 26/01/10
