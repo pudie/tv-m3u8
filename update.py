@@ -28,8 +28,7 @@ def run():
         url = uris[0].strip()
 
         # DIYP 兼容格式（无多余空格）
-        lines.append(f'#EXTINF:-1 tvg-name="{name}",{name}')
-        lines.append(url)
+        lines.append(f'{name},{url}')
 
         count += 1
 
