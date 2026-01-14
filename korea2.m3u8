@@ -59,16 +59,18 @@ https://srs.iyb983.cn/video/CYS/index.m3u8
 https://srs.iyb983.cn/video/ybtv1/index.m3u8
 #EXTINF:-1,YBTV-2 汉语综合频道
 https://srs.iyb983.cn/video/ybtv2/index.m3u8
+#EXTINF:-1,첫 번째 남자 제23회 26/01/14
+https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/첫 번째 남자_제23회 26_01_14.m3u8
+#EXTINF:-1,친밀한 리플리 제76회 26/01/14
+https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/친밀한 리플리_제76회 26_01_14.m3u8
+#EXTINF:-1,마리와 별난 아빠들 제68회 26/01/14
+https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/마리와 별난 아빠들_제68회 26_01_14.m3u8
+#EXTINF:-1,메이드 인 코리아 최종회 26/01/14
+https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/메이드 인 코리아_최종회 26_01_14.m3u8
 #EXTINF:-1,아이돌아이 제8회 26/01/13
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/아이돌아이_제8회 26_01_13.m3u8
 #EXTINF:-1,스프링 피버 제4회 26/01/13
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/스프링 피버_제4회 26_01_13.m3u8
-#EXTINF:-1,마리와 별난 아빠들 제67회 26/01/13
-https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/마리와 별난 아빠들_제67회 26_01_13.m3u8
-#EXTINF:-1,첫 번째 남자 제22회 26/01/13
-https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/첫 번째 남자_제22회 26_01_13.m3u8
-#EXTINF:-1,친밀한 리플리 제75회 26/01/13
-https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/친밀한 리플리_제75회 26_01_13.m3u8
 #EXTINF:-1,경도를 기다리며 최종회 26/01/11
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/경도를 기다리며_최종회 26_01_11.m3u8
 #EXTINF:-1,화려한 날들 제46회 26/01/11
@@ -85,8 +87,6 @@ https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/모범택시3_�
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/러브 미_제8회 26_01_09.m3u8
 #EXTINF:-1,빌런즈 최종회 26/01/08
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/빌런즈_최종회 26_01_08.m3u8
-#EXTINF:-1,메이드 인 코리아 제5회 26/01/07
-https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/메이드 인 코리아_제5회 26_01_07.m3u8
 #EXTINF:-1,부부스캔들 3 최종회 26/01/04
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/부부스캔들 3_최종회 26_01_04.m3u8
 #EXTINF:-1,콘크리트마켓 최종회 25/12/30
@@ -159,16 +159,18 @@ https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/졸업_최종회
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/함부로 대해줘_최종회 24_07_02.m3u8
 #EXTINF:-1,백희가 돌아왔다 최종회 16/06/14
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/백희가 돌아왔다_최종회 16_06_14.m3u8
+#EXTINF:-1,첫 번째 남자 제22회 26/01/13
+https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/첫 번째 남자_제22회 26_01_13.m3u8
+#EXTINF:-1,친밀한 리플리 제75회 26/01/13
+https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/친밀한 리플리_제75회 26_01_13.m3u8
+#EXTINF:-1,마리와 별난 아빠들 제67회 26/01/13
+https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/마리와 별난 아빠들_제67회 26_01_13.m3u8
+#EXTINF:-1,메이드 인 코리아 제5회 26/01/07
+https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/메이드 인 코리아_제5회 26_01_07.m3u8
 #EXTINF:-1,아이돌아이 제7회 26/01/12
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/아이돌아이_제7회 26_01_12.m3u8
 #EXTINF:-1,스프링 피버 제3회 26/01/12
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/스프링 피버_제3회 26_01_12.m3u8
-#EXTINF:-1,마리와 별난 아빠들 제66회 26/01/12
-https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/마리와 별난 아빠들_제66회 26_01_12.m3u8
-#EXTINF:-1,첫 번째 남자 제21회 26/01/12
-https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/첫 번째 남자_제21회 26_01_12.m3u8
-#EXTINF:-1,친밀한 리플리 제74회 26/01/12
-https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/친밀한 리플리_제74회 26_01_12.m3u8
 #EXTINF:-1,경도를 기다리며 제11회 26/01/10
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/경도를 기다리며_제11회 26_01_10.m3u8
 #EXTINF:-1,화려한 날들 제45회 26/01/10
@@ -185,8 +187,6 @@ https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/모범택시3_�
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/러브 미_제7회 26_01_09.m3u8
 #EXTINF:-1,빌런즈 제7회 26/01/08
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/빌런즈_제7회 26_01_08.m3u8
-#EXTINF:-1,메이드 인 코리아 제4회 25/12/31
-https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/메이드 인 코리아_제4회 25_12_31.m3u8
 #EXTINF:-1,부부스캔들 3 제9회 26/01/04
 https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/부부스캔들 3_제9회 26_01_04.m3u8
 #EXTINF:-1,콘크리트마켓 제6회 25/12/30
