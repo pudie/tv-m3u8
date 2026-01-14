@@ -3,7 +3,7 @@ from datetime import datetime
 
 # JSON 地址
 JSON_URL = "http://141.164.53.195/live/korea-live.json"
-OUTPUT = "korea.m3u8"
+OUTPUT = "korea.m3u"
 
 def run():
     try:
@@ -14,6 +14,7 @@ def run():
         print(f"{datetime.now()} 获取 JSON 失败: {e}")
         return
 
+    # DIYP 影音 APP 需要的标准 M3U 头
     lines = ["#EXTM3U"]
     count = 0
 
@@ -24,10 +25,10 @@ def run():
         if not name or not uris:
             continue
 
-        url = uris[0]
+        url = uris[0].strip()
 
-        # 按要求格式输出
-        lines.append(f"#EXTINF:-1 ,{name}")
+        # DIYP 兼容格式（无多余空格）
+        lines.append(f'#EXTINF:-1 tvg-name="{name}",{name}')
         lines.append(url)
 
         count += 1
