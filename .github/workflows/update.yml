@@ -29,12 +29,13 @@ jobs:
         run: python update.py
 
       # 5️⃣ 提交更新到 GitHub
-      - name: Commit & Push
+      - name: 提交更新
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
+          # 使用 token 替换 origin
           git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git
           git add korea.m3u8
           git commit -m "自动更新 korea.m3u8" || echo "没有变化"
