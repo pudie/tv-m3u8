@@ -7,19 +7,22 @@ OUTPUT1 = "korea.m3u8"
 OUTPUT2 = "korea2.m3u8"
 
 def extract_m3u8(uris):
-    """从各种 uris 结构中提取 m3u8"""
+    """从各种 uris 结构中提取 m3u8（只要包含 .m3u8 即视为有效）"""
+    def is_m3u8(u):
+        return isinstance(u, str) and ".m3u8" in u.lower()
+
     if isinstance(uris, list):
         for u in uris:
-            if isinstance(u, str) and u.lower().endswith(".m3u8"):
+            if is_m3u8(u):
                 return u.strip()
 
     elif isinstance(uris, dict):
         for u in uris.values():
-            if isinstance(u, str) and u.lower().endswith(".m3u8"):
+            if is_m3u8(u):
                 return u.strip()
 
     elif isinstance(uris, str):
-        if uris.lower().endswith(".m3u8"):
+        if is_m3u8(uris):
             return uris.strip()
 
     return None
