@@ -3,11 +3,11 @@ from datetime import datetime
 
 JSON_URL = "http://141.164.53.195/live/korea-live.json"
 
-OUTPUT1 = "korea.m3u8"
-OUTPUT2 = "korea2.m3u8"
+OUTPUT1 = "korea.m3u8"    # DIYP 影音
+OUTPUT2 = "korea2.m3u8"   # 标准 M3U（支持 php）
 
-def extract_m3u8(uris):
-    """从各种 uris 结构中提取 m3u8（只要包含 .m3u8 即视为有效）"""
+def extract_m3u8_only(uris):
+    """仅提取 .m3u8（用于 OUTPUT1）"""
     def is_m3u8(u):
         return isinstance(u, str) and ".m3u8" in u.lower()
 
@@ -27,6 +27,41 @@ def extract_m3u8(uris):
 
     return None
 
+
+def extract_m3u8_or_php(uris):
+    """
+    提取 .m3u8 或 .php
+    优先 m3u8，其次 php（用于 OUTPUT2）
+    """
+    urls = []
+
+    def is_valid(u):
+        return isinstance(u, str) and (
+            ".m3u8" in u.lower() or u.lower().endswith(".php")
+        )
+
+    if isinstance(uris, list):
+        urls = [u.strip() for u in uris if is_valid(u)]
+
+    elif isinstance(uris, dict):
+        urls = [u.strip() for u in uris.values() if is_valid(u)]
+
+    elif isinstance(uris, str):
+        if is_valid(uris):
+            urls = [uris.strip()]
+
+    # 优先 m3u8
+    for u in urls:
+        if ".m3u8" in u.lower():
+            return u
+
+    # 其次 php
+    if urls:
+        return urls[0]
+
+    return None
+
+
 def run():
     try:
         r = requests.get(JSON_URL, timeout=20)
@@ -39,7 +74,8 @@ def run():
     lines1 = ["#EXTM3U"]
     lines2 = ["#EXTM3U"]
 
-    count = 0
+    count1 = 0
+    count2 = 0
 
     for item in data:
         name = item.get("name", "").strip()
@@ -48,18 +84,18 @@ def run():
         if not name or not uris:
             continue
 
-        url = extract_m3u8(uris)
-        if not url:
-            continue
+        # OUTPUT1：只要 m3u8
+        url1 = extract_m3u8_only(uris)
+        if url1:
+            lines1.append(f"{name},{url1}")
+            count1 += 1
 
-        # DIYP 格式
-        lines1.append(f"{name},{url}")
-
-        # 标准 EXTINF 两行
-        lines2.append(f"#EXTINF:-1,{name}")
-        lines2.append(url)
-
-        count += 1
+        # OUTPUT2：m3u8 或 php
+        url2 = extract_m3u8_or_php(uris)
+        if url2:
+            lines2.append(f"#EXTINF:-1,{name}")
+            lines2.append(url2)
+            count2 += 1
 
     with open(OUTPUT1, "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(lines1))
@@ -67,8 +103,10 @@ def run():
     with open(OUTPUT2, "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(lines2))
 
-    print(f"{datetime.now()} 生成频道数量: {count}")
+    print(f"{datetime.now()} DIYP 频道数量: {count1}")
+    print(f"{datetime.now()} 标准 M3U 频道数量: {count2}")
     print(f"{datetime.now()} 已生成文件: {OUTPUT1}, {OUTPUT2}")
+
 
 if __name__ == "__main__":
     run()
