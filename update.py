@@ -37,7 +37,8 @@ def extract_m3u8_or_php(uris):
 
     def is_valid(u):
         return isinstance(u, str) and (
-            ".m3u8" in u.lower() or u.lower().endswith(".php")
+            ".m3u8" in u.lower()
+            #".m3u8" in u.lower() or u.lower().endswith(".php")
         )
 
     if isinstance(uris, list):
