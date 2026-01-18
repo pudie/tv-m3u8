@@ -144,7 +144,7 @@ http://hlsztemgsplive.miguvideo.com:8080/wd_r2/2018/ocn/hubeiwshd/2000/index.m3u
 #EXTINF:-1,辽宁卫视
 http://hlsztemgsplive.miguvideo.com:8080/wd_r2/2018/ocn/liaoningwshd/2000/index.m3u8?msisdn=202601181715438ed8dce39f534985bea73f276c321026&mdspid=&spid=600572&netType=4&sid=5910022198&pid=2028597139&timestamp=20260118171543&Channel_ID=0116_2600001300-99000-201600010012279&ProgramID=630291707&ParentNodeID=-99&assertID=5910022198&client_ip=124.236.97.157&SecurityKey=20260118171543&promotionId=&mvid=5101043014&mcid=500020&playurlVersion=WX-A1-8.12.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=af974fffe2e7deabb2df34aff7cf6548
 #EXTINF:-1,东南卫视
-http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/dongnanws/51/20230724/index.m3u8?msisdn=20260118121815c44ea6828b514eecb8a436250d8fc0d1&mdspid=&spid=600717&netType=4&sid=5910022182&pid=2028597139&timestamp=20260118121815&Channel_ID=0116_2600001300-99000-201600010012277&ProgramID=849116810&ParentNodeID=-99&assertID=5910022182&client_ip=124.236.97.155&SecurityKey=20260118121815&promotionId=&mvid=5900006229&mcid=500020&playurlVersion=WX-A1-8.12.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=f2b93857f65fe44166003f544fab4922
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/dongnanws/51/20230724/index.m3u8?msisdn=202601181806533b5f93d5a7ec41e5857a91b12b58de61&mdspid=&spid=600717&netType=4&sid=5910022182&pid=2028597139&timestamp=20260118180653&Channel_ID=0116_2600001300-99000-201600010012315&ProgramID=849116810&ParentNodeID=-99&assertID=5910022182&client_ip=153.0.195.62&SecurityKey=20260118180653&promotionId=&mvid=5900006229&mcid=500020&playurlVersion=WX-A1-8.12.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=78f956ed88a388c25d2e73f270824cef
 #EXTINF:-1,吉林卫视
 http://hlsztemgsplive.miguvideo.com:8080/envivo_v/2018/SD/jilin/1000/index.m3u8?msisdn=20260118171644a54e5d19b4574fd791ab2ea323593939&mdspid=&spid=600633&netType=4&sid=5910022164&pid=2028597139&timestamp=20260118171644&Channel_ID=0116_2600001300-99000-201600010012281&ProgramID=947472500&ParentNodeID=-99&assertID=5910022164&client_ip=124.236.97.159&SecurityKey=20260118171644&promotionId=&mvid=5900004357&mcid=500020&playurlVersion=WX-A1-8.12.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=7d4fa2431572c6796d194e52c5a1dcf1
 #EXTINF:-1,江西卫视
@@ -155,8 +155,6 @@ http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/btws/51/20250804/index.m3u8?
 http://120.238.85.131:9901/tsfile/live/1018_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,广东影视
 http://120.238.85.131:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1,广东4K超高清
-http://183.11.239.36:808/hls/9/index.m3u8
 #EXTINF:-1,浙江少儿
 http://ali-xwl.cztv.com/live/channel081080Plxw.m3u8
 #EXTINF:-1,浙江钱江都市
@@ -225,8 +223,6 @@ http://stream.thmz.com/wxtv4/sd/live.m3u8
 http://stream.thmz.com/wxtv2/sd/live.m3u8
 #EXTINF:-1,无锡经济
 http://stream.thmz.com/wxtv5/sd/live.m3u8
-#EXTINF:-1,宜兴新闻综合
-http://yixing-tv-ori-hls.jstv.com/yixing-tv-ori/yixing_xw.m3u8
 #EXTINF:-1,哈尔滨新闻综合
 https://stream.hrbtv.net/xwzh/sd/live.m3u8
 #EXTINF:-1,哈尔滨生活
@@ -323,6 +319,8 @@ https://jwcdnqx.hebyun.com.cn/live/qxny/1500k/tzwj_video.m3u8
 http://jwcdnqx.hebyun.com.cn/live/qxtvlive1/1500k/tzwj_video.m3u8
 #EXTINF:-1,海峡卫视
 http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/haixiaws/51/20230724/index.m3u8?msisdn=2026011812172226fb476b92ee49bba388e38a129d8af2&mdspid=&spid=600717&netType=4&sid=5910022183&pid=2028597139&timestamp=20260118121722&Channel_ID=0116_2600001300-99000-201600010012277&ProgramID=849119120&ParentNodeID=-99&assertID=5910022183&client_ip=124.236.97.155&SecurityKey=20260118121722&promotionId=&mvid=5900006231&mcid=500020&playurlVersion=WX-A1-8.12.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=0c7b6b81e8429eaaa7b99576966a3add
+#EXTINF:-1,河南曲艺
+http://live.dxhmt.cn:9080/19903718786/854deb36f8db4c9098cad18cc35bd632.m3u8
 #EXTINF:-1,济源综合
 http://tvpull.dxhmt.cn:9081/tv/19001-1.m3u8
 #EXTINF:-1,兰考综合
@@ -528,7 +526,7 @@ http://hlsztemgsplive.miguvideo.com:8080/wd_r4/dfl/dongfangwshd/1200/index.m3u8?
 #EXTINF:-1,辽宁卫视超清
 http://hlsztemgsplive.miguvideo.com:8080/wd_r2/2018/ocn/liaoningwshd/2000/index.m3u8?msisdn=202601181715438ed8dce39f534985bea73f276c321026&mdspid=&spid=600572&netType=4&sid=5910022198&pid=2028597139&timestamp=20260118171543&Channel_ID=0116_2600001300-99000-201600010012279&ProgramID=630291707&ParentNodeID=-99&assertID=5910022198&client_ip=124.236.97.157&SecurityKey=20260118171543&promotionId=&mvid=5101043014&mcid=500020&playurlVersion=WX-A1-8.12.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=af974fffe2e7deabb2df34aff7cf6548
 #EXTINF:-1,东南卫视超清
-http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/dongnanws/51/20230724/index.m3u8?msisdn=20260118121815c44ea6828b514eecb8a436250d8fc0d1&mdspid=&spid=600717&netType=4&sid=5910022182&pid=2028597139&timestamp=20260118121815&Channel_ID=0116_2600001300-99000-201600010012277&ProgramID=849116810&ParentNodeID=-99&assertID=5910022182&client_ip=124.236.97.155&SecurityKey=20260118121815&promotionId=&mvid=5900006229&mcid=500020&playurlVersion=WX-A1-8.12.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=f2b93857f65fe44166003f544fab4922
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/dongnanws/51/20230724/index.m3u8?msisdn=202601181806533b5f93d5a7ec41e5857a91b12b58de61&mdspid=&spid=600717&netType=4&sid=5910022182&pid=2028597139&timestamp=20260118180653&Channel_ID=0116_2600001300-99000-201600010012315&ProgramID=849116810&ParentNodeID=-99&assertID=5910022182&client_ip=153.0.195.62&SecurityKey=20260118180653&promotionId=&mvid=5900006229&mcid=500020&playurlVersion=WX-A1-8.12.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=78f956ed88a388c25d2e73f270824cef
 #EXTINF:-1,江西卫视超清
 http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/jxwshd/51/20190820/index.m3u8?msisdn=2026011817174516b5458eb4f14108ba03eefc81b9b56d&mdspid=&spid=600633&netType=4&sid=5910021492&pid=2028597139&timestamp=20260118171745&Channel_ID=0116_2600001300-99000-201600010012283&ProgramID=783847495&ParentNodeID=-99&assertID=5910021492&client_ip=124.236.97.142&SecurityKey=20260118171745&promotionId=&mvid=5900004351&mcid=500020&playurlVersion=WX-A1-8.12.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=568bde710b42551849736aeec2cf393c
 #EXTINF:-1,湖南卫视4K
