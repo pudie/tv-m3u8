@@ -89,7 +89,7 @@ https://srs.iyb983.cn/video/ybtv1/index.m3u8
 https://srs.iyb983.cn/video/ybtv2/index.m3u8
 #EXTINF:-1,SBS-테스트
 http://43.137.43.57/get_channel.php?channel=sbs
-#EXTINF:-1,更新日期: 2026-2-17 19:08:10
+#EXTINF:-1,更新日期: 2026-2-18 06:52:03
 http://38.75.136.137:98/gslb/dsdqpub/cctv1hd.m3u8?auth=testpub
 #EXTINF:-1,CCTV1综合
 http://38.75.136.137:98/gslb/dsdqpub/cctv1hd.m3u8?auth=testpub
@@ -97,8 +97,6 @@ http://38.75.136.137:98/gslb/dsdqpub/cctv1hd.m3u8?auth=testpub
 http://38.75.136.137:98/gslb/dsdqpub/cctv3hd.m3u8?auth=testpub
 #EXTINF:-1,CCTV5体育
 http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub
-#EXTINF:-1,CCTV17农业农村
-http://pull-hls-f11.douyincdn.com/media/stream-118870000332440236.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1771931257&major_anchor_level=common&sign=12c6cddd8ea8047020d3de66e40b35a2&t_id=037-20260217190736278442E4DF65A4BD3EE7-xrQ3b5
 #EXTINF:-1,湖南卫视
 http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 #EXTINF:-1,浙江卫视
@@ -119,6 +117,10 @@ https://hlsbkmgsplive.miguvideo.com/envivo_v/2018/SD/jilin/1000/01.m3u8?&HlsSubT
 http://38.75.136.137:98/gslb/dsdqpub/hawshd.m3u8?auth=testpub
 #EXTINF:-1,兵团卫视
 https://hlsbkmgsplive.miguvideo.com/migu/kailu/btws/51/20250804/01.m3u8?&HlsSubType=&encrypt=
+#EXTINF:-1,广东移动
+http://183.11.239.36:808/hls/14/index.m3u8
+#EXTINF:-1,广东体育
+http://120.238.85.131:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,广东少儿
 http://120.238.85.131:9901/tsfile/live/1018_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,广东影视
@@ -229,6 +231,8 @@ http://l.cztvcloud.com/channels/lantian/SXlanxi1/720p.m3u8
 http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8
 #EXTINF:-1,龙泉电视台
 http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8
+#EXTINF:-1,宜兴新闻综合
+http://yixing-tv-ori-hls.jstv.com/yixing-tv-ori/yixing_xw.m3u8
 #EXTINF:-1,哈尔滨新闻综合
 https://rmplive.hljtv.com/live/haerbin.m3u8
 #EXTINF:-1,哈尔滨生活
@@ -292,15 +296,11 @@ http://live.ynurl.com/video/s10012-TCTV/index.m3u8
 #EXTINF:-1,砚山县电视台
 http://live.ynurl.com/video/s10020-ystv-zb/index.m3u8
 #EXTINF:-1,西畴县电视台
-http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel11/playlist.m3u8
+http://live.ynurl.com/video/s10060-XCTV/index.m3u8
 #EXTINF:-1,马关县电视台
 http://live.ynurl.com/video/s10046-001/index.m3u8
-#EXTINF:-1,麻栗坡电视台
-http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel18/playlist.m3u8
-#EXTINF:-1,丘北县电视台
-http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel14/playlist.m3u8
 #EXTINF:-1,广南县电视台
-http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel19/playlist.m3u8
+http://live.ynurl.com/video/s10031-gnxgbds/index.m3u8
 #EXTINF:-1,芒市综合
 http://live.ynurl.com/video/s10001-mstv1/index.m3u8
 #EXTINF:-1,盈江综合
@@ -347,6 +347,8 @@ http://tvpull.dxhmt.cn:9081/tv/10523-1.m3u8
 http://tvpull.dxhmt.cn:9081/tv/10721-1.m3u8
 #EXTINF:-1,舞钢综合
 http://tvpull.dxhmt.cn:9081/tv/10481-1.m3u8
+#EXTINF:-1,鹤壁新闻
+http://pili-live-hls.hebitv.com/hebi/hbtv.m3u8
 #EXTINF:-1,灵宝新闻综合
 http://tvpull.dxhmt.cn:9081/tv/11282-1.m3u8
 #EXTINF:-1,淮滨综合
@@ -481,14 +483,10 @@ http://play.kankanlive.com/live/1661761962676984.m3u8
 https://play.kankanlive.com/live/1680577080200944.m3u8
 #EXTINF:-1,CCTV1超清
 http://38.75.136.137:98/gslb/dsdqpub/cctv1hd.m3u8?auth=testpub
-#EXTINF:-1,CCTV2超清
-http://pull-hls-f11.douyincdn.com/media/stream-407062262674621100.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1771769775&major_anchor_level=common&sign=98406f42e949db5477a402c85cbee007&t_id=037-20260215221614EEA56BB994BB42D25308-a6AVAz
 #EXTINF:-1,CCTV3超清
 http://38.75.136.137:98/gslb/dsdqpub/cctv3hd.m3u8?auth=testpub
 #EXTINF:-1,CCTV5超清
 http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub
-#EXTINF:-1,CCTV17超清
-http://pull-hls-f11.douyincdn.com/media/stream-118870000332440236.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1771931257&major_anchor_level=common&sign=12c6cddd8ea8047020d3de66e40b35a2&t_id=037-20260217190736278442E4DF65A4BD3EE7-xrQ3b5
 #EXTINF:-1,湖南卫视超清
 http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 #EXTINF:-1,浙江卫视超清
