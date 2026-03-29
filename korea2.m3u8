@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1,SBS
 http://43.137.43.57/get_channel.php?channel=sbs
+#EXTINF:-1,MBC
+https://lgucdn-aws-live.cdn.wavve.com/live/55/0000000M01/AVC-FHD_5M-TS-KO-221026000000.m3u8
 #EXTINF:-1,KBSWorld
 http://koreatv.dothome.co.kr/kbsworld.php
 #EXTINF:-1,KBSStory
@@ -85,7 +87,7 @@ https://srs.iyb983.cn/video/ybtv1/index.m3u8
 https://srs.iyb983.cn/video/ybtv2/index.m3u8
 #EXTINF:-1,SBS-테스트
 http://43.137.43.57/get_channel.php?channel=sbs
-#EXTINF:-1,更新日期: 2026-3-29 06:21:54
+#EXTINF:-1,更新日期: 2026-3-29 09:07:33
 http://play.kankanlive.com/live/1698234869325962.m3u8
 #EXTINF:-1,CCTV1综合
 http://play.kankanlive.com/live/1698234869325962.m3u8
@@ -219,6 +221,8 @@ http://l.cztvcloud.com/channels/lantian/SXlanxi1/720p.m3u8
 http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8
 #EXTINF:-1,龙泉电视台
 http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8
+#EXTINF:-1,南京十八生活
+http://nklive.nbs.cn/hls/1173a815-bfdb-4c3c-9f73-89ec37ae7716/index.m3u8
 #EXTINF:-1,哈尔滨新闻综合
 https://rmplive.hljtv.com/live/haerbin.m3u8
 #EXTINF:-1,哈尔滨生活
@@ -311,6 +315,8 @@ https://hlsbkmgsplive.miguvideo.com/migu/kailu/haixiaws/51/20230724/01.m3u8?&Hls
 http://tvpull.dxhmt.cn:9081/tv/19001-1.m3u8
 #EXTINF:-1,兰考综合
 http://tvpull.dxhmt.cn:9081/tv/10225-1.m3u8
+#EXTINF:-1,洛阳文旅
+http://wshls.live.migucloud.com/live/Q081CD54_C0/playlist.m3u8
 #EXTINF:-1,伊川综合
 http://tvpull.dxhmt.cn:9081/tv/10329-1.m3u8
 #EXTINF:-1,长垣综合
