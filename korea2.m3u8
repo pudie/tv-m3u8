@@ -1,6 +1,12 @@
 #EXTM3U
+#EXTINF:-1,KBS1
+https://tving-live-o2-xcdn.tving.com/o2/v1/0198f4a3d544153d786529a7c8050c/0198f4aec6841eb80e7929b1a2cc70/vc1_stream1.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3NzU4Mjg0MDksInBhdGgiOiIvbzIifQ.OVOVfFgQOlrBPmgG6RYj-DaxFFWhfJ-1QpKldsC910k
+#EXTINF:-1,KBS2
+https://tving-live-o2-xcdn.tving.com/o2/v1/0198c70ae8c1153d78652b69a68dea/0198c70fd1291eb80e792b56648c3a/vc1_stream1.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3NzU4MjkyMDMsInBhdGgiOiIvbzIifQ.xyXZI5JXJ_01tEapodh2aFXecdkM54zXqIVEl_CphWc
 #EXTINF:-1,SBS
 http://43.137.43.57/get_channel.php?channel=sbs
+#EXTINF:-1,MBC
+https://tving-live-o2-xcdn.tving.com/o2/v1/0198cb52bab0153d78652b69a68df2/0198cbdbd1c41eb80e79539125d0a/vc1_stream1.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3NzU4MjkyMTcsInBhdGgiOiIvbzIifQ.hdTH7d1StFCUC0cVRvYJGpdIKAvGMrWq8x0_6xfkzEA
 #EXTINF:-1,KBSWorld
 http://koreatv.dothome.co.kr/kbsworld.php
 #EXTINF:-1,KBSStory
